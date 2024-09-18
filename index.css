@@ -1,0 +1,268 @@
+.page {
+    background-color: black;
+    margin: auto;
+    width: 360px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 132px;
+    padding: 20px;
+}
+
+.header__logo {
+    width: 70px; 
+    height: 15px; 
+    margin: 2px 0 73px 2px;
+}
+
+.header__menu {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__menu-item {
+    margin-bottom: 12px;
+}
+
+.header__menu-link {
+    color: #f5f5f5;
+    font-family: "inter", arial, sans-serif;
+    font-size: 16px;
+    line-height:19px;
+    font-weight: 40px;
+}
+
+.cover {
+    background-image: url(../images/cover.svg);
+    background-size: 95% auto;
+    background-position: center;
+    min-height: 300px;
+}
+
+.cover__title {
+    font-size: 50px;
+    margin: 0;
+    justify-content: center;
+    color: white;
+}
+
+.accept-span {
+    display: block;
+    font-weight: 100;
+}
+
+.text-left {
+    size: 20px;
+    padding: 20px;
+    text-align: left;
+    font-size: 70px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.intro {
+    color: aliceblue;
+}
+
+.intro__heading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.intro__title {
+    margin: 5px;
+    line-height: 120%;
+    font-weight: 400;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 400;
+    line-height: 120%;
+    font-size: 16px;
+    font-family: "inter", arial, sans-serif;
+}
+
+.intro__main-text {
+    margin: 0 0 24px 0;
+    font-size: 16px;
+    color: #f5f5f5;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.intro__main-text p {
+    margin-bottom: 15px;
+}
+
+.reasons {
+    background-color: #ffeb3b;
+    border-radius: 5px;
+    padding: 13px;
+
+}
+
+.content-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ksksks {
+    margin-left: 60px;
+}
+
+.span__two {
+    margin-left: 130px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.content-section__subtitle {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content-section__introduction {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+}
+
+.content-section__list {
+    padding: 16px;
+}
+
+.content-section__list-item {
+    margin-top: 16px;
+}
+
+.content-section__list-item {
+    margin-right: 16;
+    margin-bottom: 20;
+}
+
+.content-section__list-accent {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card__two {
+    font-family: "inter", arial, sans-serif;
+    font-size: 21px;
+}
+
+.cards-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.card__first {
+    color: white;
+}
+
+.card__two {
+    color: white;
+    font-weight: 100;
+}
+
+.card_theme_dark {
+    background-color: #343434;
+    color: #f5f5f5;
+}
+
+.card_theme_bright {
+    background-color: #fee42a;
+}
+
+.card_text-only .card__title {
+    margin-top: 0;
+}
+
+.card__author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card__author-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    font-size: 1.2em;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.card__firstword {
+    margin-top: 1px;
+    margin-bottom: 16px;
+    font-size: 25px;
+}
+
+.card__text {
+    margin-bottom: 0.5em;
+}
+
+.ks {
+    font-family: Arial, "inter", sans-serif;
+    font-weight: 100;
+}
+
+.footer {
+    border: 1px solid #fee42a;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer__copy {
+    margin-left: 0px;
+    margin-right: 70px;
+}
+
+.footer__links {
+    margin-left: 70px;
+    margin-right: 20px;
+}
